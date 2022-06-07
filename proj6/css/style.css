@@ -1,0 +1,299 @@
+body{
+    text-transform: capitalize;
+    font-family: 'Bree Serif', serif;
+}
+
+.trig {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    position: fixed;
+    color: rgba(245, 245, 245, 0.925);
+    text-align: center;
+    right: 0;
+    cursor: pointer;
+    z-index: 100001;
+    
+}
+
+.trig i {
+
+    line-height: 50px;
+}
+
+
+
+nav {
+    width: 250px;
+    height: 100%;
+    background-color: rgb(29, 128, 159);
+    position: fixed;
+    right: -500px;
+    z-index: 10000;
+} 
+
+nav .header h4 {
+    height: 100px;
+    color: rgba(245, 245, 245, 0.781);
+    background-color: rgb(21, 108, 134);
+    line-height: 75px;
+    padding: 10px;
+}
+
+nav ul {
+
+    list-style: none;
+}
+
+nav ul li {
+
+    color: rgba(245, 245, 245, 0.781);
+    font-size: 25px;
+    margin: 10px 0px;
+    padding: 20px 10px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+nav ul li:hover {
+    color: #333;
+    
+}
+
+
+
+header {
+    height: 650px;
+    background-image: url("../img/bg-masthead.jpg");
+    background-size: 100% 100%;
+}
+
+header div {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+header .btn {
+    padding: 15px 25px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: rgb(29, 128, 159);
+}
+
+.sec1 {
+    height: 400px;
+    text-align: center;
+}
+
+.sec1 p {
+    color: gray;
+}
+
+.sec1 .btn {
+    padding: 15px 25px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+.sec2 {
+    height: 450px;
+    background-color: rgb(29, 128, 159);
+
+}
+
+.sec2 div {
+
+    text-align: center;
+}
+
+.sec2 div h5 {
+    color: rgba(180, 180, 57, 0.863);
+}
+
+.sec2 div h2 {
+    color: white;
+}
+
+.collections p {
+    color:rgba(245, 245, 245, 0.781);
+}
+
+.collections h4 {
+    color:rgba(245, 245, 245, 0.925);
+}
+
+.collections {
+
+    margin-top: 100px;
+}
+
+
+.collections div:hover {
+
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+@media(max-width:653px) {
+
+    .collections {
+
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .sec2 {
+        height: auto;
+    }
+}
+
+.sec3 {
+    height: 650px;
+    background-image: url("../img/bg-callout.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+}
+
+.sec3 .btn{
+    padding: 15px 25px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: rgb(29, 128, 159);
+}
+
+.sec3 h1 {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.sec4 {
+
+    height: 1000px;
+}
+
+.sec4 div {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.sec4 div h5 {
+    color: rgba(180, 180, 57, 0.863);
+}
+
+.f {
+height: 350px;
+background-image:linear-gradient(to right , rgba(0,0,0,0.5) , rgba(0,0,0,0.3)) , url("../img/portfolio-1.jpg");
+background-size: 100% 100%;
+color: whitesmoke;
+
+
+}
+
+
+
+.s {
+    height: 350px;
+    background-image:linear-gradient(to right , rgba(0,0,0,0.5) , rgba(0,0,0,0.3)) , url("../img/portfolio-2.jpg");
+    background-size: 100% 100%;
+    color: whitesmoke;
+
+    }
+
+    
+
+.t {
+        height: 350px;
+        background-image:linear-gradient(to right , rgba(0,0,0,0.5) , rgba(0,0,0,0.3)) , url("../img/portfolio-3.jpg");
+        background-size: 100% 100%;
+        color: whitesmoke;
+
+    }
+
+
+
+ .b {
+            height: 350px;
+            background-image:linear-gradient(to right , rgba(0,0,0,0.5) , rgba(0,0,0,0.3)) , url("../img/portfolio-4.jpg");
+            background-size: 100% 100%;
+            color: whitesmoke;
+
+    }
+
+    @media(max-width:653px) {
+
+        .row {
+    
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    
+        .sec4 {
+            height: auto;
+        }
+    }
+
+    
+
+
+
+.sec5 {
+    height: 400px ;
+    background-color: rgb(29, 128, 159);
+    text-align: center;
+}
+
+.sec5 h3 {
+
+    color: whitesmoke;
+}
+
+.sec5 .btn1{
+    padding: 15px 25px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    
+}
+
+.sec5 .btn2 {
+    padding: 15px 25px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+.sec6 {
+
+    height: 600px;
+}
+
+footer {
+
+    height: 200px;
+    text-align: center;
+    line-height: 70px;
+    color: gray;
+}
+
+footer img {
+
+    padding: 5px;
+}
+
+footer img:hover {
+    cursor: pointer;
+}
